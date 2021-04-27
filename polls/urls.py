@@ -6,5 +6,6 @@ app_name = "polls"
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('environment',views.environment)
 
 ]
